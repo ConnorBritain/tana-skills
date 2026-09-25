@@ -1,0 +1,16 @@
+{
+  "name": "tana-skills",
+  "owner": {
+    "name": "Pattern Engine"
+  },
+  "metadata": {
+    "description": "Reusable Tana capture and reconciliation skills."
+  },
+  "plugins": [
+    {
+      "name": "kata",
+      "source": "./plugins/kata",
+      "description": "Review Tana routing decisions and reconcile their linked work across connected apps."
+    }
+  ]
+}

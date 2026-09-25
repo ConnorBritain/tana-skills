@@ -1,0 +1,20 @@
+{
+  "name": "tana-skills",
+  "interface": {
+    "displayName": "Tana Skills"
+  },
+  "plugins": [
+    {
+      "name": "kata",
+      "source": {
+        "source": "local",
+        "path": "./plugins/kata"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

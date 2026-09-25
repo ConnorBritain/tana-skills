@@ -1,0 +1,25 @@
+{
+  "name": "kata",
+  "version": "0.2.0",
+  "description": "Review Tana routing decisions and reconcile their linked work across connected apps.",
+  "author": {
+    "name": "Pattern Engine"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Kata",
+    "shortDescription": "Review decisions and reconcile linked work.",
+    "longDescription": "Loads a user-configured private Tana guide, reviews saved decisions, and reconciles exact destination records. Uses existing connectors; no scheduler or credentials are included.",
+    "developerName": "Pattern Engine",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Review my Kata decisions.",
+      "Reconcile my Kata review queue.",
+      "Check Kata status."
+    ]
+  }
+}

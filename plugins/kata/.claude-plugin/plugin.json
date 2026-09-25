@@ -1,0 +1,8 @@
+{
+  "name": "kata",
+  "version": "0.2.0",
+  "description": "Review Tana routing decisions and reconcile their linked work across connected apps.",
+  "author": {
+    "name": "Pattern Engine"
+  }
+}
