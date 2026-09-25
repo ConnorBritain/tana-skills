@@ -45,9 +45,11 @@ revisions, and close source routing only when every candidate is resolved.
 A Claude cloud routine may use skills committed to its selected repository.
 It still needs private configuration, scoped connector access and durable
 coordination with other writers. A local plugin installation alone is not a
-cloud installation. The `nightly` skill is the versioned cloud procedure. Its helpers, coordinator
-and private instance configuration are being implemented separately; this repository does not claim a working hosted
-service. See the [operating contract](plugins/kata/references/contract.md).
+cloud installation. The `nightly` skill and the scripts in `plugins/kata/scripts/`
+are the versioned cloud procedure and callback helpers. They install hooks only
+when explicitly run by a configured cloud bootstrap. The hosted coordinator and
+private instance configuration are separate; this repository does not claim a
+working hosted service. See the [operating contract](plugins/kata/references/contract.md).
 
 ## Data boundaries
 
