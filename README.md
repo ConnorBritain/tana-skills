@@ -9,6 +9,7 @@ Tana context supplies each installation's schema, accounts and destinations.
 | `review` | Reconcile first, present genuine remaining choices, and apply authorized answers |
 | `reconcile` | Repair stale Tana routing status from verified destination evidence |
 | `status` | Read-only coverage, remaining choices and connection/automation status |
+| `nightly` | Scoped Kata 02 batch contract; requires a configured coordinator, private instance file and valid run grant |
 
 Claude commands are `/kata:review`, `/kata:reconcile`, and `/kata:status`.
 In Codex, select the corresponding Kata skill. A guide link can be configured
@@ -44,8 +45,8 @@ revisions, and close source routing only when every candidate is resolved.
 A Claude cloud routine may use skills committed to its selected repository.
 It still needs private configuration, scoped connector access and durable
 coordination with other writers. A local plugin installation alone is not a
-cloud installation. The nightly coordinator and instance-specific runtime are
-being implemented separately; this repository does not claim a working hosted
+cloud installation. The `nightly` skill is the versioned cloud procedure. Its helpers, coordinator
+and private instance configuration are being implemented separately; this repository does not claim a working hosted
 service. See the [operating contract](plugins/kata/references/contract.md).
 
 ## Data boundaries
